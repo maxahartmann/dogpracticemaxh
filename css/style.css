@@ -1,0 +1,48 @@
+body {
+  background: #FFCC00;
+}
+h1{color: purple;
+  background: pink;
+  float: right;
+}
+
+
+.btn {
+  background: green;
+  color: white;
+  font-size: 2em;
+  padding: 9px 40px;
+  width: 100%;
+  border-radius: 14px;
+}
+.btn:hover {
+  background: pink;
+  color: grey;
+}
+
+.bg-light {
+  background-color: pink;
+}
+
+.facts{
+  background: green;
+}
+.facts li{
+  float: left;
+  width: 33%
+}
+.facts .important{
+  font-size: 2em;
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  body{
+    background: purple;
+  }
+  img {width: 100%
+  }
+  .facts li{
+    float: none;
+    width: 100%
+  }
+}
